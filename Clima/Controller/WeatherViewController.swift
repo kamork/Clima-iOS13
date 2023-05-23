@@ -38,7 +38,7 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         if textField.text != "" {
             return true
         } else {
-            textField.placeholder = "Type something"
+            textField.placeholder = "Enter City Name"
             return false
         }
     }
